@@ -7,7 +7,6 @@ namespace Tyuiu.MorozovSM.Sprint2.Task0.V11.Lib
         public bool[] GetCompareOperations(int x, int y)
         {
             bool[] res = new bool[6];
-            
             res[0] = x == y + 7830;
             res[1] = x != y + 7830;
             res[2] = y<x;

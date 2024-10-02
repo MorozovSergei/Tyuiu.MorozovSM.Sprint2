@@ -9,6 +9,7 @@ namespace Tyuiu.MorozovSM.Sprint2.Task1.V20.Test
         public void ValidGetLogicOperations()
         {
             DataService ds = new DataService();
+
             int a = 242;
             int b = 155;
             int c = 456;

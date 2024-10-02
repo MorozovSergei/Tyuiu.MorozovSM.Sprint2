@@ -11,6 +11,7 @@ namespace Tyuiu.MorozovSM.Sprint2.Task0.V11
             int y = 275;
             bool[] res = new bool[6];
             res = ds.GetCompareOperations(x, y);
+
             Console.Title = "Спринт #2 | Выполнил: Морозов С. М. | АСОиУб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
@@ -27,15 +28,19 @@ namespace Tyuiu.MorozovSM.Sprint2.Task0.V11
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
+
             Console.WriteLine("X = " + x);
             Console.WriteLine("Y = " + y);
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
+
             foreach (var i in res)
             {
                 Console.WriteLine(i);
             }
+
             Console.ReadKey();
         }
     }

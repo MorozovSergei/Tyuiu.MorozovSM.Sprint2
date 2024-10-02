@@ -1,22 +1,16 @@
-﻿using Tyuiu.MorozovSM.Sprint2.Task0.V11.Lib;
+﻿using Tyuiu.MorozovSM.Sprint2.Task1.V20.Lib;
 
-namespace Tyuiu.MorozovSM.Sprint2.Task0.V11
+namespace Tyuiu.MorozovSM.Sprint2.Task1.V20
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            DataService ds = new DataService();
-            int x = 8105;
-            int y = 275;
-            bool[] res = new bool[6];
-            res = ds.GetCompareOperations(x, y);
-
             Console.Title = "Спринт #2 | Выполнил: Морозов С. М. | АСОиУб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
-            Console.WriteLine("* Тема: Операции сравнения                                                *");
-            Console.WriteLine("* Задание #0                                                              *");
+            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
+            Console.WriteLine("* Задание #1                                                              *");
             Console.WriteLine("* Вариант #11                                                             *");
             Console.WriteLine("* Выполнил: Морозов Сергей Максимович | АСОиУб-24-1                       *");
             Console.WriteLine("***************************************************************************");

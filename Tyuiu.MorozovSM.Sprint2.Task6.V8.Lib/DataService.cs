@@ -27,7 +27,22 @@ namespace Tyuiu.MorozovSM.Sprint2.Task6.V8.Lib
                     default: throw new ArgumentException("Месяц должен быть от 1 до 12");
                 }
             }
-            return $"{d}.{m}";
+            switch (m) 
+            {
+                case 1: return $"{d}.0{m}";
+                case 2: return $"{d}.0{m}";
+                case 3: return $"{d}.0{m}";
+                case 4: return $"{d}.0{m}";
+                case 5: return $"{d}.0{m}";
+                case 6: return $"{d}.0{m}";
+                case 7: return $"{d}.0{m}";
+                case 8: return $"{d}.0{m}";
+                case 9: return $"{d}.0{m}";
+                case 10: return $"{d}.{m}";
+                case 11: return $"{d}.{m}";
+                case 12: return $"{d}.{m}";
+                default: throw new ArgumentException("Месяц должен быть от 1 до 12");
+            }
         }
     }
 }

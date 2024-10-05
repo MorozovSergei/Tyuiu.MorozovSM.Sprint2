@@ -10,16 +10,16 @@ namespace Tyuiu.MorozovSM.Sprint2.Task5.V4.Lib
             switch (value)
             {
                 case 1: 
-                    ret = "Пики";
+                    ret = "пики";
                     break;
                 case 2:
-                    ret = "Трефы";
+                    ret = "трефы";
                     break;
                 case 3:
-                    ret = "Бубны";
+                    ret = "бубны";
                     break;
                 case 4:
-                    ret = "Червы";
+                    ret = "червы";
                     break;
                 default:
                     ret = "Не верный номер масти";

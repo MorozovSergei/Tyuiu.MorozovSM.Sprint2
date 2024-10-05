@@ -10,7 +10,7 @@ namespace Tyuiu.MorozovSM.Sprint2.Task5.V4.Test
         public void TestMethod1()
         {
             int value = 1;
-            string wait = "Пики";
+            string wait = "пики";
             var res = ds.FindCardSuit(value);
             Assert.AreEqual(wait, res);
         }
@@ -18,7 +18,7 @@ namespace Tyuiu.MorozovSM.Sprint2.Task5.V4.Test
         public void TestMethod2()
         {
             int value = 2;
-            string wait = "Трефы";
+            string wait = "трефы";
             var res = ds.FindCardSuit(value);
             Assert.AreEqual(wait, res);
         }
@@ -26,7 +26,7 @@ namespace Tyuiu.MorozovSM.Sprint2.Task5.V4.Test
         public void TestMethod3()
         {
             int value = 3;
-            string wait = "Бубны";
+            string wait = "бубны";
             var res = ds.FindCardSuit(value);
             Assert.AreEqual(wait, res);
         }
@@ -34,7 +34,7 @@ namespace Tyuiu.MorozovSM.Sprint2.Task5.V4.Test
         public void TestMethod4()
         {
             int value = 4;
-            string wait = "Червы";
+            string wait = "червы";
             var res = ds.FindCardSuit(value);
             Assert.AreEqual(wait, res);
         }
